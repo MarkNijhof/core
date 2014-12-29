@@ -1,0 +1,15 @@
+{application, core,
+ [
+  {description, "core"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, [core_sup]},
+  {applications,
+   [
+    stdlib,
+    kernel,
+    lager
+   ]},
+  {mod, {core_app, []}},
+  {env, []}
+ ]}.
